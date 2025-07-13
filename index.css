@@ -1,0 +1,70 @@
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Center the clock container */
+body {
+    background: #111;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Main container */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+
+/* Heading */
+.container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #0ff;
+    text-shadow: 0 0 10px #0ff;
+}
+
+/* Clock box */
+.clock-box {
+    background-color: #222;
+    padding: 30px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgba(0, 255, 255, 0.2);
+}
+
+/* Date display */
+.date {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    color: #ccc;
+}
+
+/* Time display */
+.showTime {
+    font-size: 3rem;
+    letter-spacing: 2px;
+}
+
+/* Time parts */
+.showTime span {
+    padding: 0 8px;
+    text-shadow: 0 0 10px #0ff;
+}
+
+/* AM/PM indicator */
+#daynight {
+    font-size: 1.5rem;
+    vertical-align: super;
+    margin-left: 5px;
+    color: #0ff;
+}
